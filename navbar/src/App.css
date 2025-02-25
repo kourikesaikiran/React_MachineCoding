@@ -1,0 +1,48 @@
+.navbarContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbarOptionsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.navbarOptions {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: border-bottom 0.3s;
+}
+
+.sandwichContainer {
+  cursor: pointer;
+}
+
+.sandwichLayer {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.sandwichOptionContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sandwichOption {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contentContainer {
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
