@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.config-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.config-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="range"] {
+  width: 60%;
+}
+
+.password-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.password-display {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.strength {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

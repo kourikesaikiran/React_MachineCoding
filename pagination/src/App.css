@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.entries-selector {
+  margin-bottom: 20px;
+}
+
+.entries-selector select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.data-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.data-item {
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.button, .nav-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.button.active {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.nav-btn:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
